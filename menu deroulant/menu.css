@@ -1,0 +1,49 @@
+    body {
+    padding-top: 0rem;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.clo {
+    background-color: blue;
+    height: 56px;
+}
+
+.sidebar {
+    float: right;
+    width: 200px;
+    height: 100%;
+    background-color: #323a44;
+    transform: translateX(0);
+    transition: transform 0.3s;
+    position: absolute;
+}
+
+.has-sidebar .sidebar {
+    transform: translateX(-200px);
+}
+
+.sidebar a {
+    text-align: center;
+    display: block;
+    height: 66px;
+    border-top: 1px solid rgb(20, 20, 20);
+    border-bottom: 1px solid #2b333c;
+    line-height: 66px;
+    color: rgb(20, 20, 20);
+}
+
+.sidebar a :focus,
+.sidebar a:hover {
+    text-decoration: none;
+    background-color: #323a44;
+    color: #fff;
+}
+
+.kasma {
+    float: right;
+    user-select: auto;
+}
+
+.container {
+    text-align: center;
