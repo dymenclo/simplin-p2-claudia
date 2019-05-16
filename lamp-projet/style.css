@@ -1,0 +1,26 @@
+.kasma {
+    width: 100%;
+    background-color: rgb(126, 92, 79);
+}
+
+.saliou {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.clo {
+    width: 100px;
+    height: 100px;
+}
+
+.nat {
+    width: 700px;
+    height: 700px;
+    float: right;
+}
+
+.men {
+    width: 500px;
+    height: 500px;
+}
